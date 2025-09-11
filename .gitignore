@@ -1,0 +1,44 @@
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.vscode
+*.idea
+*.vs/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Logs
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+appsettings.Development.json
+appsettings.Local.json
+
+# MongoDB / Seed Data
+docker-init/*.json
+docker-init/seed.sh
+
+# Docker
+*.dockerfile
+docker-compose.override.yml
+
+# Visual Studio cache
+.vs/
+# Ignore MongoDB Compass installer
+PropertyApp.Api/mongodb-compass_*.deb

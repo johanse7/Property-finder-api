@@ -1,0 +1,522 @@
+[
+  {
+    "_id": {
+      "$oid": "64b456000000000000000001"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000005"
+    },
+    "Name": "Propiedad 1",
+    "Address": "Dirección #1, Ciudad Ejemplo",
+    "Price": 818410,
+    "CodeInternal": "PROP-001",
+    "Year": 2019
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000002"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000001"
+    },
+    "Name": "Propiedad 2",
+    "Address": "Dirección #2, Ciudad Ejemplo",
+    "Price": 535360,
+    "CodeInternal": "PROP-002",
+    "Year": 2022
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000003"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000005"
+    },
+    "Name": "Propiedad 3",
+    "Address": "Dirección #3, Ciudad Ejemplo",
+    "Price": 917154,
+    "CodeInternal": "PROP-003",
+    "Year": 2024
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000004"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000005"
+    },
+    "Name": "Propiedad 4",
+    "Address": "Dirección #4, Ciudad Ejemplo",
+    "Price": 912868,
+    "CodeInternal": "PROP-004",
+    "Year": 2016
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000005"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000002"
+    },
+    "Name": "Propiedad 5",
+    "Address": "Dirección #5, Ciudad Ejemplo",
+    "Price": 781404,
+    "CodeInternal": "PROP-005",
+    "Year": 2015
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000006"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000001"
+    },
+    "Name": "Propiedad 6",
+    "Address": "Dirección #6, Ciudad Ejemplo",
+    "Price": 726873,
+    "CodeInternal": "PROP-006",
+    "Year": 2018
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000007"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000005"
+    },
+    "Name": "Propiedad 7",
+    "Address": "Dirección #7, Ciudad Ejemplo",
+    "Price": 242433,
+    "CodeInternal": "PROP-007",
+    "Year": 2020
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000008"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000001"
+    },
+    "Name": "Propiedad 8",
+    "Address": "Dirección #8, Ciudad Ejemplo",
+    "Price": 766838,
+    "CodeInternal": "PROP-008",
+    "Year": 2021
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000009"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000006"
+    },
+    "Name": "Propiedad 9",
+    "Address": "Dirección #9, Ciudad Ejemplo",
+    "Price": 762453,
+    "CodeInternal": "PROP-009",
+    "Year": 2019
+  },
+  {
+    "_id": {
+      "$oid": "64b45600000000000000000a"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000003"
+    },
+    "Name": "Propiedad 10",
+    "Address": "Dirección #10, Ciudad Ejemplo",
+    "Price": 563258,
+    "CodeInternal": "PROP-010",
+    "Year": 2017
+  },
+  {
+    "_id": {
+      "$oid": "64b45600000000000000000b"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000002"
+    },
+    "Name": "Propiedad 11",
+    "Address": "Dirección #11, Ciudad Ejemplo",
+    "Price": 550428,
+    "CodeInternal": "PROP-011",
+    "Year": 2020
+  },
+  {
+    "_id": {
+      "$oid": "64b45600000000000000000c"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000001"
+    },
+    "Name": "Propiedad 12",
+    "Address": "Dirección #12, Ciudad Ejemplo",
+    "Price": 981193,
+    "CodeInternal": "PROP-012",
+    "Year": 2022
+  },
+  {
+    "_id": {
+      "$oid": "64b45600000000000000000d"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000001"
+    },
+    "Name": "Propiedad 13",
+    "Address": "Dirección #13, Ciudad Ejemplo",
+    "Price": 983481,
+    "CodeInternal": "PROP-013",
+    "Year": 2022
+  },
+  {
+    "_id": {
+      "$oid": "64b45600000000000000000e"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000004"
+    },
+    "Name": "Propiedad 14",
+    "Address": "Dirección #14, Ciudad Ejemplo",
+    "Price": 742307,
+    "CodeInternal": "PROP-014",
+    "Year": 2024
+  },
+  {
+    "_id": {
+      "$oid": "64b45600000000000000000f"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000005"
+    },
+    "Name": "Propiedad 15",
+    "Address": "Dirección #15, Ciudad Ejemplo",
+    "Price": 685310,
+    "CodeInternal": "PROP-015",
+    "Year": 2018
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000010"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000003"
+    },
+    "Name": "Propiedad 16",
+    "Address": "Dirección #16, Ciudad Ejemplo",
+    "Price": 777557,
+    "CodeInternal": "PROP-016",
+    "Year": 2024
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000011"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000001"
+    },
+    "Name": "Propiedad 17",
+    "Address": "Dirección #17, Ciudad Ejemplo",
+    "Price": 117221,
+    "CodeInternal": "PROP-017",
+    "Year": 2018
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000012"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000001"
+    },
+    "Name": "Propiedad 18",
+    "Address": "Dirección #18, Ciudad Ejemplo",
+    "Price": 454904,
+    "CodeInternal": "PROP-018",
+    "Year": 2023
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000013"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000004"
+    },
+    "Name": "Propiedad 19",
+    "Address": "Dirección #19, Ciudad Ejemplo",
+    "Price": 147784,
+    "CodeInternal": "PROP-019",
+    "Year": 2020
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000014"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000003"
+    },
+    "Name": "Propiedad 20",
+    "Address": "Dirección #20, Ciudad Ejemplo",
+    "Price": 437829,
+    "CodeInternal": "PROP-020",
+    "Year": 2019
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000015"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000004"
+    },
+    "Name": "Propiedad 21",
+    "Address": "Dirección #21, Ciudad Ejemplo",
+    "Price": 145230,
+    "CodeInternal": "PROP-021",
+    "Year": 2018
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000016"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000002"
+    },
+    "Name": "Propiedad 22",
+    "Address": "Dirección #22, Ciudad Ejemplo",
+    "Price": 716865,
+    "CodeInternal": "PROP-022",
+    "Year": 2017
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000017"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000002"
+    },
+    "Name": "Propiedad 23",
+    "Address": "Dirección #23, Ciudad Ejemplo",
+    "Price": 602639,
+    "CodeInternal": "PROP-023",
+    "Year": 2017
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000018"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000001"
+    },
+    "Name": "Propiedad 24",
+    "Address": "Dirección #24, Ciudad Ejemplo",
+    "Price": 430291,
+    "CodeInternal": "PROP-024",
+    "Year": 2015
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000019"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000001"
+    },
+    "Name": "Propiedad 25",
+    "Address": "Dirección #25, Ciudad Ejemplo",
+    "Price": 454992,
+    "CodeInternal": "PROP-025",
+    "Year": 2023
+  },
+  {
+    "_id": {
+      "$oid": "64b45600000000000000001a"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000006"
+    },
+    "Name": "Propiedad 26",
+    "Address": "Dirección #26, Ciudad Ejemplo",
+    "Price": 522582,
+    "CodeInternal": "PROP-026",
+    "Year": 2016
+  },
+  {
+    "_id": {
+      "$oid": "64b45600000000000000001b"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000005"
+    },
+    "Name": "Propiedad 27",
+    "Address": "Dirección #27, Ciudad Ejemplo",
+    "Price": 552520,
+    "CodeInternal": "PROP-027",
+    "Year": 2019
+  },
+  {
+    "_id": {
+      "$oid": "64b45600000000000000001c"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000002"
+    },
+    "Name": "Propiedad 28",
+    "Address": "Dirección #28, Ciudad Ejemplo",
+    "Price": 196473,
+    "CodeInternal": "PROP-028",
+    "Year": 2023
+  },
+  {
+    "_id": {
+      "$oid": "64b45600000000000000001d"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000005"
+    },
+    "Name": "Propiedad 29",
+    "Address": "Dirección #29, Ciudad Ejemplo",
+    "Price": 176682,
+    "CodeInternal": "PROP-029",
+    "Year": 2016
+  },
+  {
+    "_id": {
+      "$oid": "64b45600000000000000001e"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000005"
+    },
+    "Name": "Propiedad 30",
+    "Address": "Dirección #30, Ciudad Ejemplo",
+    "Price": 685894,
+    "CodeInternal": "PROP-030",
+    "Year": 2017
+  },
+  {
+    "_id": {
+      "$oid": "64b45600000000000000001f"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000001"
+    },
+    "Name": "Propiedad 31",
+    "Address": "Dirección #31, Ciudad Ejemplo",
+    "Price": 945640,
+    "CodeInternal": "PROP-031",
+    "Year": 2015
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000020"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000001"
+    },
+    "Name": "Propiedad 32",
+    "Address": "Dirección #32, Ciudad Ejemplo",
+    "Price": 839943,
+    "CodeInternal": "PROP-032",
+    "Year": 2017
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000021"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000002"
+    },
+    "Name": "Propiedad 33",
+    "Address": "Dirección #33, Ciudad Ejemplo",
+    "Price": 528854,
+    "CodeInternal": "PROP-033",
+    "Year": 2024
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000022"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000004"
+    },
+    "Name": "Propiedad 34",
+    "Address": "Dirección #34, Ciudad Ejemplo",
+    "Price": 503644,
+    "CodeInternal": "PROP-034",
+    "Year": 2023
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000023"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000005"
+    },
+    "Name": "Propiedad 35",
+    "Address": "Dirección #35, Ciudad Ejemplo",
+    "Price": 414793,
+    "CodeInternal": "PROP-035",
+    "Year": 2021
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000024"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000004"
+    },
+    "Name": "Propiedad 36",
+    "Address": "Dirección #36, Ciudad Ejemplo",
+    "Price": 223850,
+    "CodeInternal": "PROP-036",
+    "Year": 2021
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000025"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000001"
+    },
+    "Name": "Propiedad 37",
+    "Address": "Dirección #37, Ciudad Ejemplo",
+    "Price": 220324,
+    "CodeInternal": "PROP-037",
+    "Year": 2016
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000026"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000002"
+    },
+    "Name": "Propiedad 38",
+    "Address": "Dirección #38, Ciudad Ejemplo",
+    "Price": 422394,
+    "CodeInternal": "PROP-038",
+    "Year": 2021
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000027"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000005"
+    },
+    "Name": "Propiedad 39",
+    "Address": "Dirección #39, Ciudad Ejemplo",
+    "Price": 424739,
+    "CodeInternal": "PROP-039",
+    "Year": 2016
+  },
+  {
+    "_id": {
+      "$oid": "64b456000000000000000028"
+    },
+    "IdOwner": {
+      "$oid": "64a123000000000000000006"
+    },
+    "Name": "Propiedad 40",
+    "Address": "Dirección #40, Ciudad Ejemplo",
+    "Price": 249753,
+    "CodeInternal": "PROP-040",
+    "Year": 2016
+  }
+]

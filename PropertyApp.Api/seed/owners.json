@@ -1,0 +1,50 @@
+[
+  {
+    "_id": {
+      "$oid": "64a123000000000000000001"
+    },
+    "Name": "Carlos Gómez",
+    "Address": "Calle 100 # 20-15, Bogotá",
+    "Photo": "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "64a123000000000000000002"
+    },
+    "Name": "María López",
+    "Address": "Carrera 15 # 80-22, Medellín",
+    "Photo": "https://randomuser.me/api/portraits/women/45.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "64a123000000000000000003"
+    },
+    "Name": "Jorge Martínez",
+    "Address": "Cra 7 # 45-60, Cali",
+    "Photo": "https://randomuser.me/api/portraits/men/67.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "64a123000000000000000004"
+    },
+    "Name": "Ana Torres",
+    "Address": "Calle 50 # 12-10, Bogotá",
+    "Photo": "https://randomuser.me/api/portraits/women/23.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "64a123000000000000000005"
+    },
+    "Name": "Luis Herrera",
+    "Address": "Av. 30 # 15-90, Medellín",
+    "Photo": "https://randomuser.me/api/portraits/men/12.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "64a123000000000000000006"
+    },
+    "Name": "Paola Díaz",
+    "Address": "Cra 60 # 14-25, Armenia",
+    "Photo": "https://randomuser.me/api/portraits/women/76.jpg"
+  }
+]
