@@ -25,18 +25,7 @@ git clone <repository-url>
 cd PropertyApp.Api
 ```
 
-2. Configure MongoDB connection in `appsettings.json`:
-
-```json
-{
-  "MongoDbSettings": {
-    "ConnectionString": "mongodb://localhost:27017",
-    "DatabaseName": "propertydb"
-  }
-}
-```
-
-3. Restore dependencies:
+2. Restore dependencies:
 
 ```bash
 dotnet restore
@@ -88,7 +77,7 @@ services:
 
 3. Add a seed script (`seed.sh`) in the same folder:
 
-```bash
+````bash
 #!/bin/bash
 set -e
 
@@ -103,7 +92,22 @@ mongoimport --uri=$MONGO_URI/$DB_NAME --collection=propertyImages --file=/docker
 mongoimport --uri=$MONGO_URI/$DB_NAME --collection=propertyTraces --file=/docker-entrypoint-initdb.d/propertyTraces.json --jsonArray --drop
 
 echo "Data uploaded successfully to $DB_NAME"
-```
+
+
+## Environment Variables
+
+
+The app uses environment variables stored in `.env`.
+An example configuration is available in `.env.example`.
+
+. Create file `.env` within `PropertyApp.Api/`
+
+```env
+MONGO_DB="PropertiesDB"
+MONGO_URI="mongodb://localhost:27018"
+
+
+````
 
 4. Run Docker Compose:
 
