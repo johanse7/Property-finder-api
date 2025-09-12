@@ -164,7 +164,7 @@ PropertyApp.Api/
 
 ## 🚀 Deploy
 
-La API está desplegada en Render y disponible en la siguiente URL:
+The API is deployed on Render and available at the following URL:
 
 👉 https://property-finder-api-529u.onrender.com/real-estate/properties
 
