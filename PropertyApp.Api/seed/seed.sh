@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-DB_NAME="propertydb"
+DB_NAME="PropertiesDB"
 MONGO_URI="mongodb://localhost:27017"
 
 echo "Data is uploading $DB_NAME..."
