@@ -2,7 +2,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copiar la solución y restaurar
+
 COPY PropertyApi.sln ./
 COPY PropertyApp.Api/PropertyApp.Api.csproj PropertyApp.Api/
 COPY PropertyApp.Application/PropertyApp.Application.csproj PropertyApp.Application/
@@ -12,12 +12,11 @@ COPY PropertyApp.Tests/PropertyApp.Tests.csproj PropertyApp.Tests/
 
 RUN dotnet restore
 
-# Copiar todo y publicar
+
 COPY . .
 WORKDIR /src/PropertyApp.Api
 RUN dotnet publish -c Release -o /app/publish
 
-# Imagen final
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
 COPY --from=build /app/publish .
