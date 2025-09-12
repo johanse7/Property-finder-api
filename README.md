@@ -162,3 +162,9 @@ PropertyApp.Api/
 ├─ docker-init/          # Seed JSON files and seed.sh
 ```
 
+## 🚀 Deploy
+
+La API está desplegada en Render y disponible en la siguiente URL:
+
+👉 https://property-finder-api-529u.onrender.com/real-estate/properties
+
