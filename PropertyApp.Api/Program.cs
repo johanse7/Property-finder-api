@@ -45,6 +45,16 @@ builder.Services.AddAutoMapper(typeof(ApplicationProfile).Assembly);
 
 var app = builder.Build();
 
+
+app.UseMiddleware<PropertyApp.Api.Middlewares.ExceptionHandlingMiddleware>();
+
+app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
+
+app.Run();
+
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

@@ -1,3 +1,4 @@
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace PropertyApp.Api.Controllers;
@@ -19,10 +20,11 @@ public class PropertiesController : ControllerBase
     public async Task<IActionResult> Get([FromQuery] PropertiesRequest request)
     {
         var result = await _getProperties.ExecuteAsync(
-                request.Name, request.Address,
-                request.MinPrice, request.MaxPrice,
-                request.Page, request.PageSize
-            );
+            request.Name, request.Address,
+            request.MinPrice, request.MaxPrice,
+            request.Page, request.PageSize
+        );
+
         return Ok(result);
     }
 
@@ -30,7 +32,10 @@ public class PropertiesController : ControllerBase
     public async Task<IActionResult> GetById(string id)
     {
         var result = await _getPropertyDetails.ExecuteAsync(id);
-        if (result == null) return NotFound();
+
+        if (result == null)
+            return NotFound(new { message = $"Property with id '{id}' was not found." });
+
         return Ok(result);
     }
 }
